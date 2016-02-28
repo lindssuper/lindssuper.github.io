@@ -29,6 +29,6 @@ function displaySquare (squareNumber) {
 // var pageNode = document.getElementsByTagName('body')[0];
 // pageNode.innerHTML += '...just adding this bit at the end of the page.'
 
-var title = document.getElementById('open-title');
-title.innerHTML = "Thanks for coming to class";
-}
+// var title = document.getElementById('open-title');
+// title.innerHTML = "Thanks for coming to class";
+// }
