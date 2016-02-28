@@ -2,13 +2,48 @@ p {
   background-color: #c2c2d6;
 }
 
+h1 {
+
+	text-align: center;
+}
+
 body {
   font-family: "Open Sans", "Arial", sans-serif;
 }
 
-li {
-  font: italic bold 10px sans-serif;
+body {
+    background-image: url("modern-wallpaper.jpg");
 }
-body{
-	font: #3d3d5c;
+
+p {
+	color: #33334d;
+}
+
+h1, h2, h3, h4 {
+	color: #52527a;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2, h3, h4 {
+  font-size: 2em;
+}
+
+table, th, td {
+   border: 1px solid black;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+    background-color: #47476b;
+    color: white;
 }
