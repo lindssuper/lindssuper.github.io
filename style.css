@@ -15,7 +15,7 @@ img {
 
 body {
   background-attachment: fixed;
-  background: url(ocean-background.jpeg) blue;
+  background: url(ocean-background.jpeg) #333333;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -71,7 +71,7 @@ ol, ul{
 	width: 50%;
 }
 
-		a:link    { color: #FF0000; } /* unvisited link */
-        a:visited { color: #00FF00; } /* visited link */
-        a:hover   { color: #FF00FF; } /* mouse over link */
-        a:active  { color: #0000FF; } /* selected link */
+		a:link    { color: white; } /* unvisited link */
+        a:visited { color: aqua;} /* visited link */
+        a:hover   { color: purple; } /* mouse over link */
+        a:active  { color: teal; } /* selected link */
