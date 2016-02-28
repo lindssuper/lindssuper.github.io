@@ -1,38 +1,50 @@
-p {
-  background-color: #c2c2d6;
-}
-
-h1 {
-
-	text-align: center;
+#business-portrait {
+padding:20px 25px;
 }
 
 body {
   font-family: "Open Sans", "Arial", sans-serif;
 }
 
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
 body {
-    background-image: url("modern-wallpaper.jpg");
+  background-attachment: fixed;
+  background: url(ocean-background.jpeg) blue;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 p {
-	color: #33334d;
+	color: #d9e6f2;
+	width:400px;
+	margin: auto;
+	text-align: center; 
 }
 
 h1, h2, h3, h4 {
-	color: #52527a;
+	color: #d9e6f2;
+	width:300px;
+	margin: auto;
+	text-align: center; 
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 175%;
 }
 
 h2, h3, h4 {
-  font-size: 2em;
+  font-size: 125%;
 }
 
 table, th, td {
-   border: 1px solid black;
+   border: 1px solid white;
 }
 
 table {
@@ -41,9 +53,25 @@ table {
 
 th, td {
 	padding: 10px;
-}
-
-th {
-    background-color: #47476b;
+	background-color: #264d73;
     color: white;
 }
+
+ol, ul{
+	color: #d9e6f2;
+}
+
+#projects-worked-on{
+	float: left;
+	width: 50%;
+}
+
+#my-skills{
+	float: right;
+	width: 50%;
+}
+
+		a:link    { color: #FF0000; } /* unvisited link */
+        a:visited { color: #00FF00; } /* visited link */
+        a:hover   { color: #FF00FF; } /* mouse over link */
+        a:active  { color: #0000FF; } /* selected link */
