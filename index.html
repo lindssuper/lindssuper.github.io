@@ -4,11 +4,13 @@
 		<title>All About Lindsay Superczynski</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="script.js"></script>
+		<script src="jquery-1.12.1.js"></script>
 	</head>
 	<body>
+
 		<h1 id="open-title">All About Lindsay</h1>
-		<p>Professional guacamole eater, baby animal petter, and manager of accounts</p>
-		<img id="portrait" src="profilepicture.png" id="business-portrait" alt="Profile Pic">
+		<div id="top-quote"<p>Professional guacamole eater, baby animal petter, and manager of accounts</p></div>
+		<img id="business-portrait" src="images/profilepicture.png"  alt="Profile Pic">
 		
 		<div id="projects-worked-on">
 			<h4>Projects I've Worked On</h4>
@@ -22,8 +24,16 @@
 		<div id="my-skills">	
 			<h4>My Skills</h4>
 				<ul>
-					<li>Account Management</li>
-					<li>Paralell Parking</li>
+					<a href="#" onclick="$('#hidden-skills-am').toggle();"><li>Account Management</li></a>
+   						<div style="display: none;" id="hidden-skills-am">
+        					<ul>
+        						<li>Phone Answering</li>
+        						<li>Client Corralling</li>
+        						<li>Report Writing</li>
+        					</ul>
+   						</div>
+					<li>Public Speaking</li>
+					<li>Public Paralell Parking</li>
 					<li>Copywriting</li>
 					<li>Social Media Strategy</li>
 				</ul>	
@@ -46,14 +56,16 @@
    				<td>January 2015-July 2015</td>
  			</tr>
  		</table>
+
 			<br/>
 		<h3>My mission statement</h3>
 		<p>"There has never been a sadness that can't be cured by breakfast food" <br/><strong>-Ron Swanson</strong></p>
 			<br/>
-		<a href="https://twitter.com/LindsaySuper" title="My Twitter" target="_blank">Follow Me on Twitter</a>
-		<br/>
-		<a href="https://www.instagram.com/lindssuper/" title="My Instagram" target="_blank">Follow Me on Instagram</a>	
-		<br/>
-		<a href="mailto:lsuper36@gmail.com">Say hi!</a>	
+		<a href="https://twitter.com/LindsaySuper" title="My Twitter" target="_blank" > <img id="twitter-icon" src="images/twitter-icon.png"></a>
+		<a href="https://www.instagram.com/lindssuper/" title="My Instagram" target="_blank"><img id="instagram-icon" src="images/instagram-icon.png"></a>	
+		<a href="https://www.linkedin.com/in/lindsay-superczynski-b1932a88"><img id="linkedin-icon" src="images/linkedin-icon.jpeg"</a>
+		<a href="mailto:lsuper36@gmail.com"><img id="email-envelope" src="images/email-envelope.jpg"></a>	
+			<br/>
+		<a download="Resume2016.pdf" href="documents/Resume2016.pdf">Download My Resume</a>
 	</body>	
 </html>
